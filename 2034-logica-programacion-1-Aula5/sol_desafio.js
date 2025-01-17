@@ -1,9 +1,9 @@
 // variables
-let numeroSecreto = Math.floor(Math.random()*10)+1;
+let numeroSecreto = Math.floor(Math.random()*100)+1;
 let numeroUsuario = 0;
 let intentos = 1;
 //let palabraVeces = 'vez';
-let maximosIntentos = 3;
+let maximosIntentos = 10;
 
 // mostrar el numero secreto por consola
 //console.log(numeroSecreto)
@@ -11,7 +11,7 @@ let maximosIntentos = 3;
 // ciclo
 while(numeroSecreto != numeroUsuario) {
     // solicitud del numero al usuario. Convertir en entero
-    numeroUsuario = parseInt(prompt('Me indicas un numero entre 1 y 10 por favor:'));
+    numeroUsuario = parseInt(prompt('Me indicas un numero entre 1 y 100 por favor:'));
     // mostrar por consola el tipo de dato de numeroUsuario
     console.log(typeof(numeroUsuario));
 
