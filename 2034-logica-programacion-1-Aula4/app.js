@@ -42,24 +42,3 @@ while(numeroSecreto != numeroUsuario) {
         }
     }
 }
-
-/*
-Pide al usuario que ingrese su edad con prompt. Con base en la edad ingresada, utiliza un if para verificar si la persona es mayor o menor de edad y muestra un mensaje apropiado en la consola.
-
-Crea una variable "numero" y solicita un valor con prompt. Luego, verifica si es positivo, negativo o cero utilizando un if-else y muestra el mensaje correspondiente.
-
-Utiliza un bucle while para mostrar los números del 1 al 10 en la consola.
-
-Crea una variable "nota" y asígnale un valor numérico. Utiliza un if-else para determinar si la nota es mayor o igual a 7 y muestra "Aprobado" o "Reprobado" en la consola.
-
-Utiliza Math.random para generar cualquier número aleatorio y muestra ese número en la consola.
-
-Utiliza Math.random para generar un número entero entre 1 y 10 y muestra ese número en la consola.
-
-Utiliza Math.random para generar un número entero entre 1 y 1000 y muestra ese número en la consola.
-*/
-
-
-
-
-
