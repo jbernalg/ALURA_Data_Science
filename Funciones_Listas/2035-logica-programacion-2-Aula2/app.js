@@ -1,8 +1,6 @@
 // definimos variable que contiene el numero secreto
 let numeroSecreto = generarNumeroSecreto();
 
-// mostrar numero aleatorio en consola
-console.log(numeroSecreto);
 
 // funcion que asigna un texto a un elemento HTML
 function asignarTextoElemento(elemento, texto) {
@@ -11,9 +9,17 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
-// funcion que muestra un mensaje al dar clic a un boton
-function intentoDeUsuario() {
-    alert('Click desde el boton');
+// funcion que captura y verifica la eleccion del usuario
+function verificarIntento() {
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
+    // tipo de dato de numeroUsuario
+    console.log(typeof(numeroDeUsuario));
+    // mostrar numero aleatorio en consola
+    console.log(numeroSecreto);
+    // tipo de dato de numeroUsuario
+    console.log(typeof(numeroSecreto));
+    console.log(numeroDeUsuario);
+    console.log(numeroDeUsuario === numeroSecreto);
     return;
 }
 
