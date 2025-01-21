@@ -12,14 +12,20 @@ function asignarTextoElemento(elemento, texto) {
 // funcion que captura y verifica la eleccion del usuario
 function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
-    // tipo de dato de numeroUsuario
-    console.log(typeof(numeroDeUsuario));
-    // mostrar numero aleatorio en consola
-    console.log(numeroSecreto);
-    // tipo de dato de numeroUsuario
-    console.log(typeof(numeroSecreto));
-    console.log(numeroDeUsuario);
-    console.log(numeroDeUsuario === numeroSecreto);
+    
+    // mostrar el numero secreto por consola
+    //console.log(numeroSecreto);
+
+    // condicion de acierto
+    if (numeroDeUsuario === numeroSecreto) {
+        asignarTextoElemento('p', 'Acertaste el numero!')
+    } else {
+        if (numeroDeUsuario > numeroSecreto) {
+            asignarTextoElemento('p', 'El numero secreto es menor');
+        } else {
+            asignarTextoElemento('p', 'El numero secreto es mayor')
+        }
+    }
     return;
 }
 
@@ -30,6 +36,6 @@ function generarNumeroSecreto() {
 
 // llamar la funcion dentro de javascript
 // etiqueta titulo
-asignarTextoElemento('h1', 'Juego Del Numero Secreto!');
+asignarTextoElemento('h1', 'Juego Del Numero Secreto');
 // etiqueta parrafo
 asignarTextoElemento('p', 'Indica un numero del 1 al 10: ');
