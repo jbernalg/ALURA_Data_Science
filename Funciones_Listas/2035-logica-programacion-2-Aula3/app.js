@@ -19,18 +19,25 @@ function verificarIntento() {
     // mostrar el numero secreto por consola
     //console.log(numeroSecreto);
 
-    // condicion de acierto
+    // el usuario acerto
     if (numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', `Acertaste el numero en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
     } else {
+        // el usuario no acerto
         if (numeroDeUsuario > numeroSecreto) {
             asignarTextoElemento('p', 'El numero secreto es menor');
         } else {
             asignarTextoElemento('p', 'El numero secreto es mayor');
         }
         intentos++;
+        limpiarCaja();
     }
     return;
+}
+
+function limpiarCaja() {
+    let valorCaja = document.querySelector('#valorUsuario');
+    valorCaja.value = '';
 }
 
 // funcion para el numero aleatorio
