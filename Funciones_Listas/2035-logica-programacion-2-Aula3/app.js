@@ -1,6 +1,9 @@
 // definimos variable que contiene el numero secreto
 let numeroSecreto = generarNumeroSecreto();
+let intentos = 1;
 
+// mostrar numero secreto
+console.log(numeroSecreto);
 
 // funcion que asigna un texto a un elemento HTML
 function asignarTextoElemento(elemento, texto) {
@@ -18,13 +21,14 @@ function verificarIntento() {
 
     // condicion de acierto
     if (numeroDeUsuario === numeroSecreto) {
-        asignarTextoElemento('p', 'Acertaste el numero!')
+        asignarTextoElemento('p', `Acertaste el numero en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
     } else {
         if (numeroDeUsuario > numeroSecreto) {
             asignarTextoElemento('p', 'El numero secreto es menor');
         } else {
-            asignarTextoElemento('p', 'El numero secreto es mayor')
+            asignarTextoElemento('p', 'El numero secreto es mayor');
         }
+        intentos++;
     }
     return;
 }
