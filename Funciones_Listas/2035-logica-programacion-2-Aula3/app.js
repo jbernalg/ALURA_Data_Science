@@ -46,14 +46,15 @@ function generarNumeroSecreto() {
     return Math.floor(Math.random()*10) + 1;
 }
 
+// Funcion que reinicia el juego con las cond iniciales
 function condicionesIniciales() {
     // etiqueta titulo
     asignarTextoElemento('h1', 'Juego Del Numero Secreto');
     // etiqueta parrafo
     asignarTextoElemento('p', 'Indica un numero del 1 al 10: ');
-
+    // asignar numero secreto
     numeroSecreto = generarNumeroSecreto();
-
+    // asignar numero de intentos
     intentos = 1;
 }
 
