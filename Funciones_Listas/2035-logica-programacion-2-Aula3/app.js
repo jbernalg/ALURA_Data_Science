@@ -35,9 +35,9 @@ function verificarIntento() {
     return;
 }
 
+// funcion que limpia la caja
 function limpiarCaja() {
-    let valorCaja = document.querySelector('#valorUsuario');
-    valorCaja.value = '';
+    document.querySelector('#valorUsuario').value = '';
 }
 
 // funcion para el numero aleatorio
