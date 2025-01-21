@@ -1,9 +1,9 @@
 // definimos variable que contiene el numero secreto
-let numeroSecreto = generarNumeroSecreto();
-let intentos = 1;
+let numeroSecreto = 0;
+let intentos = 0;
 
 // mostrar numero secreto
-console.log(numeroSecreto);
+//console.log(numeroSecreto);
 
 // funcion que asigna un texto a un elemento HTML
 function asignarTextoElemento(elemento, texto) {
@@ -46,8 +46,27 @@ function generarNumeroSecreto() {
     return Math.floor(Math.random()*10) + 1;
 }
 
-// llamar la funcion dentro de javascript
-// etiqueta titulo
-asignarTextoElemento('h1', 'Juego Del Numero Secreto');
-// etiqueta parrafo
-asignarTextoElemento('p', 'Indica un numero del 1 al 10: ');
+function condicionesIniciales() {
+    // etiqueta titulo
+    asignarTextoElemento('h1', 'Juego Del Numero Secreto');
+    // etiqueta parrafo
+    asignarTextoElemento('p', 'Indica un numero del 1 al 10: ');
+
+    numeroSecreto = generarNumeroSecreto();
+
+    intentos = 1;
+}
+
+// funcion para reiniciar el juego
+function reiniciarJuego() {
+    // limpiar caja
+    limpiarCaja();
+    // indicar mensaje de intervalo de numero
+    // generar numero aleatorio
+    // inicializar el numero de intentos
+    condicionesIniciales();
+    // deshabilitar el boton de nuevo juego
+    document.querySelector('#reiniciar').setAttribute('disabled', 'true');
+}
+
+condicionesIniciales();
