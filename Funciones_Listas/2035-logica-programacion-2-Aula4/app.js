@@ -43,8 +43,8 @@ function limpiarCaja() {
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
 
-    console.log(numeroGenerado);
-    console.log(listaNumerosSorteados);
+    //console.log(numeroGenerado);
+    //console.log(listaNumerosSorteados);
 
     //si ya sorteamos todos los numeros
     if (listaNumerosSorteados.length == numeroMaximo){
