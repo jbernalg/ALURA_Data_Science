@@ -6,8 +6,15 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .titulo-destaque{
     color: #22D4FD;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
 }
