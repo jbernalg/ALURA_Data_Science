@@ -69,3 +69,7 @@ body{
     justify-content: center;
     gap: 10px;
 }
+
+.presentacion_enlaces_link:hover{
+    background-color: #272727;
+}
