@@ -48,6 +48,12 @@ body{
     gap: 32px;
 }
 
+.presentacion_enlaces_subtitulos{
+    font-family: 'Krona One', sans serif;
+    font-size: 24xp;
+    font-weight: 400;
+}
+
 .presentacion_enlaces_link{
     width: 280px;
     background-color: #22D4FD;
