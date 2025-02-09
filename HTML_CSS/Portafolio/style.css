@@ -43,6 +43,8 @@ body{
 .presentacion_enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentacion_enlaces_link{
