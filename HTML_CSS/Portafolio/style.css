@@ -11,7 +11,18 @@ body{
     box-sizing: border-box;
 }
 
-.titulo-destaque{
+.header{
+    padding: 2% 0% 0% 17%;
+}
+
+.header_menu{
+
+}
+
+.header_menu_link{
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
 }
 
@@ -32,6 +43,10 @@ body{
 .presentacion_contenido_titulo{
     font-size: 36px;
     font-family: "Krona One", serif;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
 }
 
 .presentacion_contenido_texto{
