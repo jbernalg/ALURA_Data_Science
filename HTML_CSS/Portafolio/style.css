@@ -8,7 +8,6 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -79,4 +78,7 @@ body{
     padding: 24px;
     color: #000000;
     text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
 }
