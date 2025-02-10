@@ -16,7 +16,8 @@ body{
 }
 
 .header_menu{
-
+    display: flex;
+    gap: 80px;
 }
 
 .header_menu_link{
@@ -29,7 +30,7 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10% 17%;
+    padding: 7% 17%;
     justify-content: space-between;
 }
 
