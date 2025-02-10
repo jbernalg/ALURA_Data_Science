@@ -73,3 +73,10 @@ body{
 .presentacion_enlaces_link:hover{
     background-color: #272727;
 }
+
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+}
