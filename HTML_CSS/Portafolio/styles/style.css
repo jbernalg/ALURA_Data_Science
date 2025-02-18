@@ -44,10 +44,11 @@ body{
     align-items: center;
     padding: 6% 17%;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .presentacion_contenido{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -82,7 +83,7 @@ body{
 }
 
 .presentacion_enlaces_link{
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
@@ -101,6 +102,10 @@ body{
     background-color: var(--color--hover);
 }
 
+.presentacion_imagen{
+    width: 50%;
+}
+
 .footer{
     background-color: var(--color-terciario);
     padding: 24px;
@@ -109,4 +114,10 @@ body{
     font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    .presentacion{
+        flex-direction: column-reverse;
+    }
 }
