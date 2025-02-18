@@ -42,7 +42,7 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    padding: 6% 17%;
+    padding: 5% 15%;
     justify-content: space-between;
     gap: 82px;
 }
@@ -127,5 +127,10 @@ body{
 
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion_contenido{
+        width: auto;
     }
 }
