@@ -14,3 +14,8 @@ body{
 .titulo_destacado{
     color: #22D4FD;
 }
+
+.presentacion{
+    display: flex;
+    align-items: center;
+}
