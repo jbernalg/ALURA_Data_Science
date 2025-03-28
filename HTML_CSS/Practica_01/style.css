@@ -42,3 +42,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.presentacion_enlace_link{
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+}
