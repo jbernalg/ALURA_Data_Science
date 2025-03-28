@@ -37,3 +37,8 @@ body{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
 }
+
+.presentacion_enlaces{
+    display: flex;
+    justify-content: space-between;
+}
