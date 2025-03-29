@@ -49,9 +49,15 @@ body{
     gap: 32px;
 }
 
+
+.presentacion_enlace_subtitulos{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .presentacion_enlace_link{
     width: 280px;
-    background-color: #22D4FD;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 16px;
@@ -59,5 +65,5 @@ body{
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
 }
