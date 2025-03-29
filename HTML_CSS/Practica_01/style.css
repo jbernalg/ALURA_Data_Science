@@ -12,16 +12,29 @@ body{
 }
 
 
-.titulo_destacado{
+.header{
+    padding: 2% 0% 0% 17%;
+}
+
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
 }
 
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10% 20%;
+    padding: 4% 17%;
     justify-content: space-between;
 }
+
 
 .presentacion_contenido{
     width: 615px;
@@ -33,6 +46,10 @@ body{
 .presentacion_contenido_titulo{
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.titulo_destacado{
+    color: #22D4FD;
 }
 
 .presentacion_contenido_texto{
