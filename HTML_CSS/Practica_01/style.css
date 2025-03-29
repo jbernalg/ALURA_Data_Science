@@ -57,10 +57,10 @@ body{
 }
 
 .presentacion_enlace_link{
-    width: 280px;
+    width: 378px;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
