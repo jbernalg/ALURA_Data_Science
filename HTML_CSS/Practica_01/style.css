@@ -67,4 +67,7 @@ body{
     text-decoration: none;
     color: #f6f6f6;
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
