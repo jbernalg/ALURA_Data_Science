@@ -71,3 +71,8 @@ body{
     justify-content: center;
     gap: 10px;
 }
+
+
+.presentacion_enlace_link:hover{
+    background-color: #272727; 
+}
