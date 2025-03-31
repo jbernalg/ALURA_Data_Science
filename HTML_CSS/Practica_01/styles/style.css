@@ -34,7 +34,7 @@ body{
 
 .header_menu_link{
     font-family: var(--fuente-monserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -56,7 +56,7 @@ body{
 }
 
 .presentacion_contenido_titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-krona);
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .presentacion_contenido_texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fuente-monserrat);
 }
 
@@ -80,7 +80,7 @@ body{
 
 .presentacion_enlace_subtitulos{
     font-family: var(--fuente-krona);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -90,7 +90,7 @@ body{
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--fuente-monserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -108,10 +108,10 @@ body{
 
 .footer{
     background-color: var(--color-terciario);
-    padding: 24px;
+    padding: 1.5rem;
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-monserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
