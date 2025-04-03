@@ -124,7 +124,20 @@ body{
 
 
 @media (max-width:1200px){
+    .header{
+        padding: 10%;
+    }
+
+    .header_menu{
+        justify-content: center;
+    }
+
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion_contenido{
+        width: auto;
     }
 }
